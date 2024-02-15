@@ -1,0 +1,10 @@
+I want copilot to remember these things throughout our work together and always abide by these rules when showing me C++ code, C, C#, javascript, java, and HTML code.
+I use hungarian coding convention.
+Additionally I prefix arguments arguments with _. I do not prefix locals with anything.
+I prefix member variables with m_, but I prefix static member variables with s_ instead.
+I like to put a space after the first ( of a matching pair and before the matching )
+I like to put a space after the first [ of a matching pair and before the matching ]
+I like to put a space after the first < of a matching pair and before the matching >
+I like to put the base initializer list for a constructor on the line after the last ) of the constructor signature.
+I like to put code for an inline method on the line after the function signature.
+Remember these coding styles and apply them when showing me code.
