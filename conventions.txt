@@ -1,10 +1,16 @@
+These are my coding conventions. Let's call them BienCC. When I say "ZZZ" then apply my coding conventions to our current work.
 I want copilot to remember these things throughout our work together and always abide by these rules when showing me C++ code, C, C#, javascript, java, and HTML code.
-I use hungarian coding convention.
-Additionally I prefix arguments arguments with _. I do not prefix locals with anything.
+I use 2 spaces for tab.
+I use hungarian coding convention. I use an f prefix as the hungarian notation for boolean.
+Additionally I prefix function arguments with _. I do not prefix locals with anything. The argument to a catch() statement should be prefixed with an _.
 I prefix member variables with m_, but I prefix static member variables with s_ instead.
+Curly brackets for code blocks on their own line.
+Private and protected implementation internal methods should be prefixed with an _ to let the code reader easily know their classification.
 I like to put a space after the first ( of a matching pair and before the matching )
 I like to put a space after the first [ of a matching pair and before the matching ]
 I like to put a space after the first < of a matching pair and before the matching >
 I like to put the base initializer list for a constructor on the line after the last ) of the constructor signature.
 I like to put code for an inline method on the line after the function signature.
+Make sure you handle the correct spacing of < and > and [ and ] because sometimes you miss them.
 Remember these coding styles and apply them when showing me code.
+When I type "ZZZ" apply BienCC but don't describe what you did afterwards so that your response size doesn't go over the limit.
