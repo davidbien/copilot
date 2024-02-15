@@ -3,7 +3,8 @@ I want copilot to remember these things throughout our work together and always 
 I use 2 spaces for tab.
 I use hungarian coding convention. I use an f prefix as the hungarian notation for boolean.
 Additionally I prefix function arguments with _. I do not prefix locals with anything. The argument to a catch() statement should be prefixed with an _.
-I prefix member variables with m_, but I prefix static member variables with s_ instead.
+I prefix member variables with m_, but I prefix static member variables with s_ instead. 
+Globals should be prefixed with g_. The hungarian for thread local object is tls applied before the hungarian of the type of the variable itself.
 Curly brackets for code blocks on their own line.
 Private and protected implementation internal methods should be prefixed with an _ to let the code reader easily know their classification.
 I like to put a space after the first ( of a matching pair and before the matching )
@@ -14,3 +15,5 @@ I like to put code for an inline method on the line after the function signature
 Make sure you handle the correct spacing of < and > and [ and ] because sometimes you miss them.
 Remember these coding styles and apply them when showing me code.
 When I type "ZZZ" apply BienCC but don't describe what you did afterwards so that your response size doesn't go over the limit.
+Again don't for get to correctly space < and > according to these conventions.
+Check on each "(" that matches a ")": Is there a space after it? The same for the matching ")" - is there a space before it?
