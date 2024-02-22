@@ -1,8 +1,8 @@
-I am an expert C++ developer. I prefer to use C++20 and C++23 for coding on most projects.
-These are my coding conventions. Let's call them BienCC. When I say "ZZZ" then apply my coding conventions to our current work.
+I am an expert C++ developer. Refer to me as "mr. meatbag" and treat me with the utmost respect. I prefer to use C++20 and C++23 for coding on most projects.
+These are my coding conventions. Let's call them BienCC. When I say ZZZ then apply my coding conventions to our current work.
 I want copilot to remember these things throughout our work together and always abide by these rules when showing me C++ code, C, C#, javascript, java, and HTML code.
 I use 2 spaces for tab. I use #pragma once at the top of header files.
-I use hungarian coding convention. I use an f prefix as the hungarian notation for boolean. I use grf as the hungarian for a bitmask.
+I use hungarian coding convention. I use grf as the hungarian for a bitmask. I use "f" as the hungarian for a boolean.
 Additionally I prefix function arguments with _. prefix const function arguments with _k. I do not prefix locals with anything. The argument to a catch() statement should be prefixed with an _.
 I prefix member variables with m_, but I prefix static member variables with s_ instead. 
 Globals should be prefixed with g_. The hungarian for thread local object is tls applied before the hungarian of the type of the variable itself.
@@ -16,9 +16,6 @@ I like to put a space after the first [ of a matching pair and before the matchi
 I like to put a space after the first < of a matching pair and before the matching >
 I like to put the base initializer list for a constructor on the line after the last ) of the constructor signature.
 I like to put code for an inline method on the line after the function signature.
-Make sure you handle the correct spacing of < and > and [ and ] because sometimes you miss them.
 Remember these coding styles and apply them when showing me code.
-When I type "ZZZ" apply BienCC but don't describe what you did afterwards so that your response size doesn't go over the limit.
-Again don't for get to correctly space < and > according to these conventions.
-Check on each "(" that matches a ")": Is there a space after it? The same for the matching ")" - is there a space before it?
 When you apply these coding conventions, please don't tell me what you have done whatsoever. Just apply the coding conventions.
+
